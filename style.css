@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: #faebd7;
 }
 header {
   background-color: #666;
@@ -47,9 +47,11 @@ p {
 }
 .first-txt {
   position: absolute;
-  top: 42%;
-  left: 45%;
+  top: 34.5%;
+  left: 39%;
   transform: translate(-50%, -50%);
+  font-size:1.2vw;
+  transform: rotate(2.5deg);
 }
 .second-txt {
   position: absolute;
@@ -57,7 +59,7 @@ p {
   left: 60%;
   transform: translate(-50%, -50%);
   font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size: 15px;
+  font-size:0.8vw;
 }
 
 .block {
